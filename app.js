@@ -73,3 +73,12 @@ function addBookElement(listElement, bookname) {
     li.appendChild(delBtnElement)
     listElement.appendChild(li)
 }
+
+
+
+
+
+document.forms['cap-form'].addEventListener('input', event => {
+    document.querySelector("#ss span[name='leo']").textContent = event.target.value
+
+})

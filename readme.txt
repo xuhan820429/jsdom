@@ -199,7 +199,12 @@ document: document.getElementsByTagName('tag-name')
 		- <button type="button">, event is click
 		- <button type= "submit">, event is submit
 		- The default behavior for submit event is to refresh the page, so need to event.preventDefault() in the EventListener
-	
+		- formElement.elements, it will get all elements inside the form
+		- formElement.elements['element-name'], get the element inside the form by name attribute
+		- elements inside form has name attribute, then this element can be reference as formElement.xxname
+		
+
+
 	- Use case operation:
 		-1) get the form element,
 		-2) get the input element
@@ -218,31 +223,3 @@ document: document.getElementsByTagName('tag-name')
 			console.log('doc is loaded')
 		})
 		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

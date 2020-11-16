@@ -7,14 +7,19 @@
     <title>JavaScript DOM Tutorials</title>
 </head>
 
+
 <body>
+
+    <div id="ss">
+        <span name='leo'></span>
+    </div>
     <div id="wrapper">
         <header>
             <div id="page-banner">
                 <h1 class="title">Bookorama</h1>
                 <p>Books for Ninjas</p>
                 <form id="search-books">
-                    <input type="text" placeholder="Search books..." />
+                    <input type="text" name="search-name" placeholder="Search books..." />
                 </form>
             </div>
         </header>
@@ -42,8 +47,12 @@
         <form id="add-book">
             <input type="checkbox" id="hide">
             <label for="hide">Hide all books</label>
-            <input id="add-book-input" type="text" placeholder="Add a book..." />
+            <input id="add-book-input" type="text" name="bookinput" placeholder="Add a book..." />
             <button type='submit'>Add</button>
+        </form>
+
+        <form id="cap-form">
+            <input id="cap-form-input" type="text" name="capinput" placeholder="Add a Cap input..." />
         </form>
 
     </div>
